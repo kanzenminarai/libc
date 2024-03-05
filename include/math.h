@@ -1,6 +1,5 @@
-#ifndef MATH_H
-#define MATH_H
+#pragma once
 
-double squareRoot(double number);
-
-#endif // MATH_H
+double powerDouble(double number, double expoent);
+float powerFloat(float number, float expoent);
+int powerInt(int number, int expoent);
