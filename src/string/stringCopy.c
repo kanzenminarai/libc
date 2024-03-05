@@ -8,7 +8,7 @@ char* stringCopy(char *target, char *source) {
   if(sourceSize > targetSize) sizeOfString = targetSize;
   else sizeOfString = sourceSize;
   for(counter = 0; counter < sizeOfString; counter++) target[counter] = source[counter];
-  target[counter] = NULL_TERMINATOR;
+  target[counter] = '\0';
   
   return target;
 }
