@@ -1,7 +1,20 @@
 #pragma once
 
-int stringToInteger(char *string);
-unsigned int stringLength(char *string);
-int stringCompare(char *target, char *source);
-char* stringCopy(char *target, char *source);
-char* stringCopySize(char *target, char *source, unsigned int size);
+#include "./types.h"
+
+/* String convertion */
+// Integer
+i32 stringToInteger(str string);
+
+
+/* String size  */
+u32 stringLength(str string);
+
+
+/* String comparison  */
+i32 stringCompare(str target, str source);
+
+
+/* String copy */
+str stringCopy(str target, str source);
+str stringCopySize(str target, str source, u32 size);
