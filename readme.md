@@ -11,14 +11,14 @@ system, and is still being tested and developed.
 git clone -v https://github.com/kanzenminarai/libc
 
 # enter the directory
-cd libc/
+cd ./libc/
 ```
 
 ### Uninstall
 ```sh
 # remove the directory
-rm -rv libc/
+rm -v ./libc/
 ```
 
 ### License
- This project is under the [Zero Clause BSD](./license) license.
+ This project is under the [Zero Clause BSD License](./license).
